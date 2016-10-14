@@ -1,0 +1,16 @@
+//
+//  XXD彩票.pch
+//  01-彩票项目分析
+//
+//  Created by 哥不帅但很坏 on 16/8/22.
+//  Copyright © 2016年 哥不帅但很坏. All rights reserved.
+//
+
+#ifndef XXD___pch
+#define XXD___pch
+#ifdef __OBJC__//只有oc文件才导入
+#import "UIView+XXDFrame.h"
+#import "UIImage+XXDImage.h"
+#define XXDkeyWindow [UIApplication sharedApplication].keyWindow
+#endif
+#endif /* XXD___pch */
